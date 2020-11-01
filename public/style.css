@@ -1,0 +1,153 @@
+:root{
+    --background:#1a73e8;
+    --font:Lato,arial,verdana;
+}
+
+body{
+    background:var(--background);
+    font-family: var(--font);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    /* background:var(--background); */
+}
+
+h1 {
+    color: #fff;
+    font-size: 54px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+    margin-top:30px;
+}
+.first{
+    width: 100%;
+    height: 75vh;
+    /* background:var(--background); */
+}
+h2{
+    color: #fff;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 76px;
+    letter-spacing:3px;
+}
+
+.first p{
+    padding-left: 40px;
+    margin-top:20px;
+    font-size: 22px;
+    color:#fff;
+    letter-spacing:2.3px;
+    font-family:Lato;
+    line-height:30px;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin-top:130px;
+}
+
+.button{
+    font-size: 26px;
+    border-radius: 26px;
+    padding: 10px;
+    background:#fff;
+    color:var(--background);
+    font-size: 18px;
+    margin-right: 25px;
+    font-family: Lato;
+    box-shadow: 0 0 10px #ccc;
+    text-decoration: none;
+}
+
+.button:hover{
+    background:var(--background);
+    border:1px solid #fff;
+    color: #fff;
+    font-family: Lato;
+}
+
+.second{
+    background:#ccc;
+    width:100%;
+    height: 540vh;
+}
+
+.heading{
+    padding-top: 10px;
+    font-size: 45px;
+    font-family: Georgia;
+}
+
+
+.content{
+    width: 100%;
+    height: 40vh;
+    /* background:crimson; */
+}
+.content-part-one{
+    width: 44%;
+    height: 40vh;
+    background:crimson;
+    float:left;
+    margin-left:30px;
+}
+.content-part-two{
+    width: 45%;
+    height: 40vh;
+    float:right;
+}
+
+.circle{
+    width:90px;
+    height:90px;
+    z-index:1000;
+    position: absolute;
+    margin-left:47%;
+    margin-top:100px;
+    border-radius: 200px;
+    background:#ffff;
+}
+
+
+.circle-text{
+    margin:35px 10px;
+    color:var(--background);
+}
+
+.subheading{
+    color:#ffff;
+    text-align: center;
+    font-size: 24px;
+}
+.content-text{
+    font-family: Lato;
+    font-size:16px;
+    color:aliceblue;
+    text-align: justify;
+    margin:0 20px;
+    line-height:25px;
+}
+
+footer{
+    width: 100%;
+    height:25vh;
+    background:rgba(0, 0, 0, 0.877);
+    margin-top:-16px;
+}
